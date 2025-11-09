@@ -49,10 +49,17 @@ main {
   max-width: var(--container);
   margin: 0 auto calc(var(--space) * 4) auto;
 }
+header {
+  text-align: center;
+  padding: var(--space) calc(var(--space) * 2);
+}
 footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
   text-align: center;
+  border-top: var(--line);
+  border-bottom: var(--line);
+  padding: var(--space) calc(var(--space) * 2);
 }
 /* ====== Articles Grid Layout ====
 Setting the rules for how articles are placed in the main element.
