@@ -30,6 +30,11 @@ body {
   background: var(--paper);
   color: var(--ink);
   font: var(--font);
+  margin: 5px;
+  border: 2px solid black;
+  padding-left: 200px;
+  padding-right: 200px;
+  box-sizing: border-box;
 }
 a {
   padding: var(--space);
@@ -59,15 +64,14 @@ footer {
   text-align: center;
   border-top: var(--line);
   border-bottom: var(--line);
-  padding: var(--space) calc(var(--space) * 2);
+ margin-left: -200px;
+  margin-right: -200px;
+  
+ 
+  
+
 }
-/* ====== Articles Grid Layout ====
-Setting the rules for how articles are placed in the main element.
-Inspect this in Devtools and click the "grid" button in the Elements view
-Play with the options that come up.
-https://developer.chrome.com/docs/devtools/css/grid
-https://gridbyexample.com/learn/
-*/
+ 
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
