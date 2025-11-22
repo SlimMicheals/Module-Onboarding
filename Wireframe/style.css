@@ -66,11 +66,7 @@ footer {
   border-bottom: var(--line);
  margin-left: -200px;
   margin-right: -200px;
-  
- 
-  
-
-}
+  }
  
 main {
   display: grid;
